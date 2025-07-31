@@ -17,6 +17,8 @@ In the game, you can feed your bias, help him get enough rest, and keep him happ
   <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
   <img width="150" alt="image" src="https://github.com/user-attachments/assets/9cb4dc3b-eb8d-4d4e-a904-fa042b6e2816" />
   <img width="150" alt="image" src="https://github.com/user-attachments/assets/e0939194-9433-4261-800b-591e5bcd7505" />
+  <img width="150" alt="image" src="https://github.com/user-attachments/assets/99bb495e-eb79-4ebc-84c1-1557d0bc9683" />
+  <img width="150" alt="Screenshot 2025-07-31 181618" src="https://github.com/user-attachments/assets/3f8b2ebd-5f0f-4d00-bd22-7b7b507c16c8" />
 
 
 </div>
