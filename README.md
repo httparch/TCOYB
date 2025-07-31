@@ -13,16 +13,10 @@ Enjoy nurturing your favorite idol and making your virtual space uniquely yours!
 ---
 
 ## 👀 Sneak Peek
-## 👀 Sneak Peek
 
 <div style="display: flex; gap: 10px; flex-wrap: nowrap; overflow-x: auto;">
 
   <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
-   <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
-    <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
-     <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
-      <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
-      
-
+  <img width="150" alt="image" src="https://github.com/user-attachments/assets/9cb4dc3b-eb8d-4d4e-a904-fa042b6e2816" />
 
 </div>
