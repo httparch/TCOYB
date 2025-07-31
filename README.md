@@ -8,8 +8,6 @@ Take Care of Your Bias is a wholesome pet simulator game with a fun twist! Inste
 
 In the game, you can feed your bias, help him get enough rest, and keep him happy throughout the day. Customize your home to reflect your style or your bias’s personality, earn coins from unexpected events, and use those coins to buy clothes and accessories to dress him up.
 
-Enjoy nurturing your favorite idol and making your virtual space uniquely yours!
-
 ---
 
 ## 👀 Sneak Peek
