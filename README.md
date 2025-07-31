@@ -13,5 +13,16 @@ Enjoy nurturing your favorite idol and making your virtual space uniquely yours!
 ---
 
 ## 👀 Sneak Peek
+## 👀 Sneak Peek
 
-![Take Care of Your Bias Screenshot](https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png)
+<div style="display: flex; gap: 10px; flex-wrap: nowrap; overflow-x: auto;">
+
+  <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
+   <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
+    <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
+     <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
+      <img src="https://github.com/httparch/TCOYB/blob/main/sb19/screenshot-2025-07-04-13-41-52.png" alt="Screenshot 1" width="150" />
+      
+
+
+</div>
