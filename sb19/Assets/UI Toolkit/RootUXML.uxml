@@ -1,0 +1,206 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/App/Assets/style.uss?fileID=7433441132597879392&amp;guid=53d09f065ec5ae74284c647883bc4a45&amp;type=3#style" />
+    <engine:VisualElement name="App" style="flex-grow: 1; display: flex;">
+        <engine:VisualElement name="Top" style="flex-grow: 1; height: 40%;">
+            <engine:VisualElement name="DisplayContainer" style="flex-grow: 1;">
+                <engine:VisualElement name="BagButton" style="flex-grow: 1; position: absolute; height: 107px; width: 126px; top: 368px; left: 1007px; background-color: rgba(255, 0, 0, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=-1372613014460752855&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_7&quot;);" />
+                <engine:VisualElement name="Container" style="flex-grow: 0; width: 90%; height: 25%; flex-direction: row; top: 15%; left: 5%;">
+                    <engine:VisualElement name="Settings-button" class="setting-default" />
+                    <engine:VisualElement name="Container" style="flex-grow: 0; background-color: rgba(255, 0, 0, 0); width: 80%; height: 100%; top: 20%; background-image: none;">
+                        <engine:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=-8639160409229879036&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_0&quot;); width: 100%; height: 100%;">
+                            <engine:Label text="Label" name="gold" style="position: relative; top: 25%; left: 25%; -unity-font-style: bold; font-size: 50px; color: rgb(255, 255, 255); width: 250px;" />
+                            <engine:Label text="Label" name="diamond" style="position: relative; top: auto; left: 67%; font-size: 50px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=cf85992ba006bfa47a182f4c6bcb545d&amp;type=3#NotInter-Regular&quot;); color: rgb(255, 255, 255); bottom: 3%; width: 246px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/SLEEPING.png?fileID=5529438902021659391&amp;guid=f1c862469c8a9c142b5e60a5547662ce&amp;type=3#SLEEPING_1&quot;); position: absolute; height: 36px; width: 545px; top: 219px; left: 264px;">
+                            <engine:VisualElement name="ExpBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/SLEEPING.png?fileID=4626190365287317762&amp;guid=f1c862469c8a9c142b5e60a5547662ce&amp;type=3#SLEEPING_2&quot;); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+                            <engine:Label text="Level" name="LevelText" style="position: absolute; font-size: 30px; top: -5px; left: -25%; -unity-font-style: bold; color: rgb(255, 255, 255); right: auto;" />
+                            <engine:Label text="Level" name="ExpText" style="position: absolute; font-size: 28px; top: -20%; left: 80%; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Camera-button" class="camera-default" />
+                </engine:VisualElement>
+                <engine:VisualElement name="ClockContainer" style="flex-grow: 1; position: absolute; height: 121px; width: 308px; top: -1px; left: 428px; background-color: rgb(255, 255, 255);" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Collections" style="flex-grow: 1; position: absolute; height: 115px; width: 139px; top: 555px; left: 1001px; background-color: rgba(255, 255, 255, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=-7009810676668211564&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_3&quot;);" />
+            <engine:VisualElement name="Shop" style="flex-grow: 1; position: absolute; height: 116px; width: 133px; top: 746px; left: 1005px; background-color: rgba(255, 255, 255, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=3933200011563282507&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_5&quot;);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Dim" picking-mode="Ignore" style="position: absolute; height: 100%; width: 100%;" />
+        <engine:VisualElement name="Mid" style="flex-grow: 1; height: 10%;" />
+        <engine:VisualElement name="Bottom" style="flex-grow: 1; height: 50%;">
+            <engine:VisualElement name="StatusContainer" style="flex-grow: 1; flex-direction: column-reverse; width: 100%; height: 50%;">
+                <engine:VisualElement name="NameTemplateContainer" style="flex-grow: 0; width: 940px; height: 115px; bottom: 517px; left: 10%; top: auto;">
+                    <engine:VisualElement name="NameTemplateBg" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=8847855555103642368&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_8&quot;); flex-direction: row-reverse;">
+                        <engine:VisualElement name="EditName" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/NAME%20TEMPLATE%20AND%20BUTTON.png?fileID=-781576986328281819&amp;guid=876de3fbff4a2a147ad2eaf66e635eea&amp;type=3#NAME TEMPLATE AND BUTTON_3&quot;); width: 3%; height: 60%; right: 8%; top: 20%; color: rgb(255, 255, 255);" />
+                        <engine:Label text="name&#10;" name="CharacterName" style="font-size: 60%; -unity-text-align: upper-center; width: 915px; -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); right: 35px; top: 20px; height: 79px;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="Container" style="flex-grow: 0; height: 25%; flex-direction: row; top: auto; left: 10%; right: auto; width: 80%; flex-shrink: 1;">
+                    <engine:VisualElement name="Hunger" class="hunger-default">
+                        <engine:VisualElement name="Container" style="flex-grow: 1;">
+                            <engine:VisualElement style="flex-grow: 1; position: absolute; height: 284px; width: 288px; top: 23px; left: 17px; background-size: 100% 100%; rotate: 180deg;">
+                                <engine:VisualElement name="HungerBar" class="HungerBar" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=-8079110507933748108&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_4&quot;); -unity-background-image-tint-color: rgb(123, 140, 123); background-size: 100% 100%; height: 59px; translate: 0 0; rotate: 0; transition-property: height; transition-duration: 0.3s; transition-timing-function: ease-in-out;" />
+                            </engine:VisualElement>
+                            <engine:VisualElement name="HungerBarContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=3457978198757100793&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_2&quot;); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Energy" class="energy-default">
+                        <engine:VisualElement name="Container" style="flex-grow: 1;">
+                            <engine:VisualElement style="flex-grow: 1; position: absolute; height: 284px; width: 288px; top: 23px; left: 17px; background-size: 100% 100%; rotate: 180deg;">
+                                <engine:VisualElement name="EnergyBar" class="HungerBar" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=-6468933699440884362&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_8&quot;); -unity-background-image-tint-color: rgb(157, 157, 157); background-size: 100% 100%; height: 81px; translate: 0 0; rotate: 0; transition-property: height; transition-duration: 0.3s; transition-timing-function: ease-in-out;" />
+                            </engine:VisualElement>
+                            <engine:VisualElement name="EnergyBarContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=-829866814814149445&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_7&quot;); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Happiness" class="happiness-default">
+                        <engine:VisualElement name="Container" style="flex-grow: 1;">
+                            <engine:VisualElement style="flex-grow: 1; position: absolute; height: 284px; width: 288px; top: 23px; left: 17px; background-size: 100% 100%; rotate: 180deg;">
+                                <engine:VisualElement name="HappinessBar" class="HungerBar" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=6554341534612565572&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_5&quot;); -unity-background-image-tint-color: rgb(245, 235, 235); background-size: 100% 100%; height: 64px; translate: 0 0; rotate: 0; transition-property: height; transition-duration: 0.3s; transition-timing-function: ease-in-out;" />
+                            </engine:VisualElement>
+                            <engine:VisualElement name="HappinessBarContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/newest.png?fileID=8403013161342376753&amp;guid=0f73e2dcfbfd72f4d814d3f2af54ede6&amp;type=3#newest_3&quot;); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="DailyRewardButton" style="flex-grow: 1; position: absolute; height: 109px; width: 132px; background-color: rgba(0, 0, 0, 0); top: 659px; left: 18px; display: flex; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=7366830173170349371&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_4&quot;);" />
+    <engine:VisualElement name="HideDisplayButton" style="flex-grow: 1; position: absolute; height: 105px; width: 139px; top: 504px; left: 8px; background-color: rgba(255, 255, 255, 0); display: flex; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=-2100111897153539083&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_2&quot;);" />
+    <engine:VisualElement name="Outfitter" style="flex-grow: 1; position: absolute; height: 108px; width: 132px; background-color: rgba(255, 255, 255, 0); top: 835px; left: 14px; display: flex; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/homebuttons.png?fileID=7755222617172298076&amp;guid=be9d45a81160b5145b3ba04e13c73e2a&amp;type=3#homebuttons_6&quot;);" />
+    <engine:VisualElement name="OutfitterPanel" picking-mode="Ignore" style="flex-grow: 1; width: 100%; height: 100%; display: none;">
+        <engine:VisualElement name="container" style="flex-grow: 1; height: 20%; width: 100%;">
+            <engine:Button text="Save" name="SaveButton" style="position: absolute; top: 65px; left: 190px; height: 109px; width: 165px; background-image: none;" />
+            <engine:Button text="Shop" name="OutfitShopButton" style="position: absolute; height: 105px; width: 148px; top: 68px; left: 16px; display: flex;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="topHalfContainer" picking-mode="Ignore" style="flex-grow: 1; width: 100%; height: 60%; display: flex;">
+            <engine:VisualElement name="bodyParts" style="flex-grow: 1; position: relative; width: 100%; height: 50%;">
+                <engine:VisualElement style="flex-grow: 1; width: 100%; height: 33%; flex-direction: row; justify-content: space-around; align-items: center; align-self: auto; align-content: flex-start;">
+                    <engine:VisualElement name="head" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-right: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                    <engine:VisualElement name="torso" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-left: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; width: 100%; height: 33%; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <engine:VisualElement name="leftarm" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-right: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                    <engine:VisualElement name="rightarm" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-left: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 1; height: 33%; width: 100%; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <engine:VisualElement name="rightfoot" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-left: 0; margin-right: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                    <engine:VisualElement name="leftfoot" style="flex-grow: 0; position: relative; background-color: rgba(74, 74, 74, 0); height: 75%; width: 20%; top: auto; left: auto; margin-right: 0; margin-left: 15%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Outfits" style="flex-grow: 1; width: 100%; height: 50%; background-color: rgb(253, 253, 253); flex-direction: row; justify-content: center; align-items: stretch;">
+                <engine:ScrollView name="OutfitShopScrollView" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="width: 80%; height: 100%; position: relative; top: auto; left: auto; flex-grow: 0; align-items: stretch; align-self: auto; flex-direction: row; background-image: none;">
+                    <engine:VisualElement name="OutfitContainer" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-evenly; align-self: auto; align-content: auto; width: 100%; height: 966px; flex-wrap: wrap; flex-shrink: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=184817754702480478&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_11&quot;);" />
+                </engine:ScrollView>
+                <engine:VisualElement name="container" style="flex-grow: 1; height: 100%; width: 30%; background-color: rgba(115, 43, 0, 0.86);">
+                    <engine:Button name="headButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=2445956991912684987&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_4&quot;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(188, 188, 188, 0);" />
+                    <engine:Button name="torsoButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=-2908466519394671182&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_5&quot;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(188, 188, 188, 0);" />
+                    <engine:Button name="leftArmButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=902973274901685683&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_6&quot;); background-color: rgba(188, 188, 188, 0);" />
+                    <engine:Button name="rightArmButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=4669330629836046983&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_7&quot;); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgba(188, 188, 188, 0);" />
+                    <engine:Button text="Left Foot" name="leftFootButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=5475424469635898535&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_10&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                    <engine:Button text="Right Foot" name="rightFottButton" style="position: relative; height: 15%; width: 100%; top: auto; left: auto; background-color: rgba(188, 188, 188, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=3871699882626368913&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_8&quot;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="PromptOutfitDim" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.82); display: none;">
+        <engine:VisualElement name="Prompt" style="flex-grow: 1; position: absolute; top: 987px; left: 50px; width: 1100px; height: 455px; background-color: rgb(255, 255, 255);">
+            <engine:Button text="NO" name="NoShopOutfitButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 295px; left: 820px; font-size: 40px;" />
+            <engine:Button text="YES" name="YesShopOutfitButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 296px; left: 500px; font-size: 40px;" />
+            <engine:Label text="Do you want to buy it?" name="BuyItOutfitText" style="position: absolute; font-size: 50px; top: 71px; left: 455px; -unity-font-style: bold;" />
+            <engine:Label text="0" name="CostOutfitText" style="position: absolute; font-size: 50px; top: 162px; left: 719px; -unity-font-style: bold;" />
+            <engine:VisualElement name="ItemImage" style="flex-grow: 1; position: absolute; height: 400px; width: 400px; top: 32px; left: 31px; background-color: rgb(255, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="Phone" class="default-phone default-phone-out" />
+    <engine:VisualElement name="Settings" class="settings-panel-out" />
+    <engine:VisualElement name="CharacterListContainer" class="CLC-out">
+        <engine:VisualElement name="Container" style="flex-grow: 1; flex-direction: column;">
+            <engine:VisualElement name="Top" style="flex-grow: 1; height: 20%;" />
+            <engine:VisualElement name="InnerContainer" style="flex-grow: 1; height: 80%;">
+                <engine:VisualElement name="CharacterButtonContainer" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; flex-shrink: 1; justify-content: space-around; align-self: auto; align-content: center;">
+                    <engine:VisualElement name="CharacterButton" style="flex-grow: 0; position: relative; height: 30%; width: 30%; top: auto; left: auto; background-color: rgb(255, 0, 0); right: auto; margin-left: 5%; margin-top: 5%; margin-right: 5%; margin-bottom: 5px; align-items: stretch; justify-content: flex-start; align-self: auto;" />
+                    <engine:VisualElement name="CharacterButton" style="flex-grow: 0; position: relative; height: 30%; width: 30%; top: auto; left: auto; background-color: rgb(255, 0, 0); right: auto; margin-left: 5%; margin-top: 5%; margin-right: 5%; margin-bottom: 5px;" />
+                    <engine:VisualElement name="CharacterButton" style="flex-grow: 0; position: relative; height: 30%; width: 30%; top: auto; left: auto; background-color: rgb(255, 0, 0); right: auto; margin-left: 5%; margin-top: 5%; margin-right: 5%; margin-bottom: 5px;" />
+                    <engine:VisualElement name="CharacterButton" style="flex-grow: 0; position: relative; height: 30%; width: 30%; top: auto; left: auto; background-color: rgb(255, 0, 0); right: auto; margin-left: 5%; margin-top: 5%; margin-right: 5%; margin-bottom: 5px;" />
+                    <engine:VisualElement name="CharacterButton" style="flex-grow: 0; position: relative; height: 30%; width: 30%; top: auto; left: auto; background-color: rgb(255, 0, 0); right: auto; margin-left: 5%; margin-top: 5%; margin-right: 5%; margin-bottom: 5px;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="TreeContainer" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: none;">
+        <engine:VisualElement name="Apple1" style="flex-grow: 1; position: absolute; height: 92px; width: 93px; top: 743px; left: 244px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple2" style="flex-grow: 1; position: absolute; height: 92px; width: 93px; top: 795px; left: 641px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple3" style="flex-grow: 1; position: absolute; height: 92px; width: 93px; top: 967px; left: 446px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple4" style="flex-grow: 1; position: absolute; height: 92px; width: 93px; top: 951px; left: 251px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple5" style="flex-grow: 1; position: absolute; height: 92px; width: 93px; top: 805px; left: 437px; background-color: rgb(255, 255, 255);" />
+    </engine:VisualElement>
+    <engine:VisualElement name="CollectionsPanel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgba(91, 91, 91, 0.42); top: 0; left: 0; display: none;">
+        <engine:VisualElement name="InnerContainer" style="flex-grow: 1; -unity-background-image-tint-color: rgb(255, 255, 255);">
+            <engine:VisualElement name="Top" style="flex-grow: 0; width: 100%; height: 10%; flex-direction: row-reverse; justify-content: space-around; align-items: center; align-self: auto; background-color: rgba(255, 253, 0, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/mycollection1.png?fileID=4371290284832467955&amp;guid=3922850170c53d44ab3cc27c650ffa00&amp;type=3#mycollection1_1&quot;);">
+                <engine:Label text="My Collections" name="MyCollectionText" style="font-size: 100px; right: 12%; display: flex; color: rgba(240, 240, 240, 0);" />
+                <engine:VisualElement name="BackButton" style="flex-grow: 0; width: 15%; height: 60%; background-color: rgba(255, 255, 255, 0); right: 5%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/2.png?fileID=5382512944479897801&amp;guid=da64c2752bdc82b43bec557c9317c415&amp;type=3#2_2&quot;);" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Body" style="flex-grow: 1; width: 100%; height: 90%; background-color: rgba(255, 255, 255, 0); flex-direction: row-reverse; -unity-background-image-tint-color: rgba(255, 255, 255, 0);">
+                <engine:VisualElement name="BodyContainer" style="flex-grow: 1; width: 90%; height: 100%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/mycollection1.png?fileID=5003614400221709934&amp;guid=3922850170c53d44ab3cc27c650ffa00&amp;type=3#mycollection1_4&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255);">
+                    <engine:ScrollView name="CollectionScrollView" touch-scroll-type="Clamped" horizontal-scroller-visibility="Auto" vertical-scroller-visibility="AlwaysVisible" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); display: flex; flex-grow: 1; flex-direction: column; justify-content: flex-start; flex-shrink: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/12.png?fileID=-1540426309290004842&amp;guid=3fd150bf2bfa4d1418909ec90239ee00&amp;type=3#12_0&quot;);">
+                        <engine:VisualElement name="CollectionsContainer" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-evenly; align-self: auto; align-content: auto; width: 100%; height: 100%; flex-wrap: wrap; flex-shrink: 1;" />
+                    </engine:ScrollView>
+                </engine:VisualElement>
+                <engine:VisualElement name="ButtonGroup" style="flex-grow: 1; position: relative; height: 100%; width: 10%; display: flex; -unity-background-image-tint-color: rgba(255, 255, 255, 0);">
+                    <engine:VisualElement name="LoungeButton" style="flex-grow: 1; position: absolute; height: 160px; width: 470px; top: 114px; left: -64px; background-color: rgba(255, 255, 255, 0); background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/2.png?fileID=-4424780041397978121&amp;guid=da64c2752bdc82b43bec557c9317c415&amp;type=3#2_5&quot;);" />
+                    <engine:VisualElement name="BedroomButton" style="flex-grow: 1; position: absolute; height: 160px; width: 470px; top: 150px; left: -331px; background-color: rgba(249, 222, 0, 0); translate: 0 174px; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/2.png?fileID=-5883455936764719873&amp;guid=da64c2752bdc82b43bec557c9317c415&amp;type=3#2_9&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="ShopPanel" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgb(255, 255, 255); top: 0; left: 0; display: none;">
+        <engine:VisualElement name="InnerContainer" style="flex-grow: 1;">
+            <engine:VisualElement name="Top" style="flex-grow: 0; width: 100%; height: 10%; flex-direction: row-reverse; justify-content: space-around; align-items: center; align-self: auto; background-color: rgb(255, 253, 0);">
+                <engine:VisualElement name="CurrentCoin" style="flex-grow: 1; width: 25%; height: 50%; flex-direction: row-reverse; justify-content: space-between; align-items: stretch;">
+                    <engine:Label text="000" name="CurrentGold" style="font-size: 100px;" />
+                    <engine:VisualElement name="logo" style="flex-grow: 1; width: 13%;" />
+                </engine:VisualElement>
+                <engine:VisualElement name="InnerContainer" style="flex-grow: 1; flex-direction: row-reverse; width: 75%; justify-content: space-around;">
+                    <engine:Label text="Shopping" name="MyCollectionText" style="font-size: 100px; right: auto; flex-grow: 0;" />
+                    <engine:VisualElement name="CollectionButton" style="flex-grow: 0; width: 13%; height: 100%; background-color: rgb(255, 0, 0); right: auto;" />
+                    <engine:VisualElement name="ShopBackButton" style="flex-grow: 0; width: 13%; height: 100%; background-color: rgb(255, 0, 0); right: auto;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Body" style="flex-grow: 1; width: 100%; height: 90%; background-color: rgb(0, 255, 226); flex-direction: row;">
+                <engine:VisualElement name="ButtonGroup" style="flex-grow: 1; position: relative; height: 100%; width: 10%; display: flex;">
+                    <engine:VisualElement name="ChairButton" style="flex-grow: 1; position: absolute; height: 102px; width: 303px; top: 124px; left: -188px; background-color: rgb(249, 222, 0);" />
+                    <engine:VisualElement name="PlantButton" style="flex-grow: 1; position: absolute; height: 104px; width: 303px; top: 112px; left: -188px; background-color: rgb(249, 222, 0); translate: 0 174px;" />
+                    <engine:VisualElement name="WallDecorationButton" style="flex-grow: 1; position: absolute; height: 102px; width: 303px; top: 675px; left: -194px; background-color: rgb(249, 222, 0);" />
+                    <engine:VisualElement name="WallpaperButton" style="flex-grow: 1; position: absolute; height: 102px; width: 303px; top: 867px; left: -191px; background-color: rgb(249, 222, 0);" />
+                    <engine:VisualElement name="WindowButton" style="flex-grow: 1; position: absolute; height: 102px; width: 303px; top: 476px; left: -191px; background-color: rgb(249, 222, 0);" />
+                </engine:VisualElement>
+                <engine:VisualElement name="BodyContainer" style="flex-grow: 1; width: 90%; height: 100%;">
+                    <engine:ScrollView name="ShopScrollView" style="width: 100%; height: 100%;">
+                        <engine:VisualElement name="ShopContainer" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-evenly; align-self: auto; align-content: auto; width: 100%; height: 100%; flex-wrap: wrap; flex-shrink: 1;" />
+                    </engine:ScrollView>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="PromptCollectionPanel" style="flex-grow: 1; position: absolute; height: 100%; width: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.49); display: none;">
+        <engine:VisualElement name="Prompt" style="flex-grow: 1; position: absolute; width: 90%; height: 20%; top: 1000px; left: 70px; background-color: rgb(255, 255, 255);">
+            <engine:Label text="Are you sure you want to place it?" name="TextPrompt" style="position: absolute; font-size: 60px; top: 80px; left: 52px;" />
+            <engine:Button text="NO" name="NoButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 298px; left: 644px; font-size: 40px;" />
+            <engine:Button text="YES" name="YesButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 299px; left: 247px; font-size: 40px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="PromptShopDim" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.82); display: none;">
+        <engine:VisualElement name="Prompt" style="flex-grow: 1; position: absolute; top: 987px; left: 50px; width: 1100px; height: 455px; background-color: rgb(255, 255, 255);">
+            <engine:Button text="NO" name="NoShopButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 295px; left: 820px; font-size: 40px;" />
+            <engine:Button text="YES" name="YesShopButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; position: absolute; height: 95px; width: 203px; top: 296px; left: 500px; font-size: 40px;" />
+            <engine:Label text="Do you want to buy it?" name="BuyItText" style="position: absolute; font-size: 50px; top: 71px; left: 455px; -unity-font-style: bold;" />
+            <engine:VisualElement name="FurnitureImage" style="flex-grow: 1; position: absolute; height: 400px; width: 400px; top: 32px; left: 31px; background-color: rgb(255, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="DailyRewardPanel" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.49); display: none;">
+        <engine:VisualElement name="DailyReward" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 90%; height: 40%; top: 600px; left: 70px; background-color: rgb(255, 255, 255); display: flex;">
+            <engine:VisualElement name="ExitButtonDR" style="flex-grow: 1; position: absolute; height: 94px; width: 104px; top: 29px; left: 963px; background-color: rgb(0, 0, 0);" />
+            <engine:Label text="Daily Reward" name="RewardText" style="font-size: 100px; position: absolute; top: 90px; left: 228px;" />
+            <engine:ScrollView mode="Horizontal" touch-scroll-type="Clamped" focusable="false" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" picking-mode="Ignore" name="DailyRewardScrollView" style="position: absolute; height: 644px; width: 1080px; top: 292px; left: -2px; white-space: normal; flex-direction: row;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,133 @@
+.HungerBar {
+}
+
+.default {
+    flex-grow: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: none;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.default-phone {
+    flex-grow: 1;
+    position: absolute;
+    height: 50%;
+    width: 90%;
+    top: 503px;
+    left: 49px;
+    background-color: rgb(255, 255, 255);
+    transition-timing-function: ease-out-bounce;
+    transition-duration: 1s;
+}
+
+.default-phone-out {
+    scale: 0 0;
+}
+
+.hunger-default {
+    flex-grow: 0;
+    height: 100%;
+    background-color: rgba(47, 255, 0, 0);
+    width: 100%;
+    right: 5%;
+}
+
+.energy-default {
+    flex-grow: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+.happiness-default {
+    flex-grow: 0;
+    height: 100%;
+    background-color: rgba(255, 228, 0, 0);
+    width: 100%;
+    left: 5%;
+}
+
+.hunger-default:hover {
+    scale: 1.1 1.1;
+}
+
+.energy-default:hover {
+    scale: 1.1 1.1;
+}
+
+.happiness-default:hover {
+    scale: 1.1 1.1;
+}
+
+.setting-default {
+    flex-grow: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 12%;
+    height: 40%;
+    right: 30px;
+    background-image: url("project://database/Assets/App/Assets/Menu%20UI/Cam%20and%20Setting.png?fileID=-8663121744190242988&guid=02696c5cd551e474aa99e650cba5f8cf&type=3#Cam and Setting_1");
+    top: 55px;
+}
+
+.setting-default:hover {
+    scale: 1.1 1.1;
+}
+
+.camera-default {
+    flex-grow: 0;
+    background-color: rgba(81, 255, 0, 0);
+    width: 12%;
+    height: 40%;
+    left: 30px;
+    background-image: url("project://database/Assets/App/Assets/Menu%20UI/Cam%20and%20Setting.png?fileID=-4456812938083194970&guid=02696c5cd551e474aa99e650cba5f8cf&type=3#Cam and Setting_0");
+    top: 55px;
+}
+
+.camera-default:hover {
+    scale: 1.1 1;
+}
+
+.settings-panel-out {
+    flex-grow: 1;
+    position: absolute;
+    height: 55%;
+    width: 90%;
+    top: -1501px;
+    left: 47px;
+    background-color: rgb(255, 255, 255);
+    right: 70px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out-bounce;
+}
+
+.settings-panel-in {
+    translate: 1% 150%;
+}
+
+.dim-light {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("project://database/Assets/App/Assets/Background/lamp%20light.png?fileID=3192201732418847605&guid=090693a6ed3fc024b88f756cc8c411fb&type=3#lamp light_0");
+}
+
+.CLC-out {
+    flex-grow: 1;
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+    top: 15%;
+    translate: 0 -3610px;
+    transition-timing-function: ease-out-bounce;
+    transition-duration: 1s;
+}
+
+.CLC-in {
+    translate: 0 0;
+}

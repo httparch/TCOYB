@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/App/Assets/itemCollection.uss?fileID=7433441132597879392&amp;guid=45bca4b4a93ab5a4c84ad05e4b2e4edd&amp;type=3#itemCollection" />
+    <engine:VisualElement name="ItemContainer" class="inactive" style="background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;); background-color: rgba(255, 255, 255, 0);">
+        <engine:VisualElement name="ItemNameContainer" style="flex-grow: 0; background-color: rgba(255, 171, 0, 0); top: 10%; left: 5%; width: 90%; height: 52px; align-items: center; flex-shrink: 1; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/2.png?fileID=-4312959346109786154&amp;guid=da64c2752bdc82b43bec557c9317c415&amp;type=3#2_13&quot;);">
+            <engine:Label text="ItemName" name="ItemName" style="font-size: 30px; flex-grow: 0; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ImageContainer" style="flex-grow: 0; width: 140px; height: 130px; left: 136px; top: 167px; background-image: none; position: absolute;">
+            <engine:VisualElement name="Image" style="flex-grow: 1; bottom: auto; background-image: url(&quot;project://database/Assets/App/FirstSceneAsset/assets/Your%20paragraph%20text.png?fileID=2800000&amp;guid=25d158d93de9ed9449eaec5d449b1ece&amp;type=3#Your paragraph text&quot;); width: 100%; height: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,3 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="BodyPartIcon3" style="flex-grow: 1; width: 20%; height: 200px; background-color: rgb(82, 82, 82); margin-left: 15px; margin-top: 15px; margin-right: 15px; margin-bottom: 15px;" />
+</engine:UXML>

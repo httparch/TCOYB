@@ -1,0 +1,16 @@
+.default {
+    flex-grow: 0;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(126, 126, 126, 0.87);
+    flex-shrink: 1;
+    flex-direction: column;
+}
+
+.notOwned {
+    background-color: rgba(78, 0, 0, 0.87);
+}

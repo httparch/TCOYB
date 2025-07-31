@@ -1,0 +1,14 @@
+.notOwned {
+    flex-grow: 0;
+    position: relative;
+    height: 444px;
+    width: 412px;
+    top: auto;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.Owned {
+    background-image: url("project://database/Assets/App/FirstSceneAsset/assets/bought.png?fileID=2800000&guid=f673f05ea3827a84389c98f57da2c1c3&type=3#bought");
+    background-size: 100% 50%;
+}

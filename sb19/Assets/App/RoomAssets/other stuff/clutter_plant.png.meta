@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 1950da72a2e8a1c4c84a6a9c982f3698
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8707067585966656191
+    second: clutter_plant_0
+  - first:
+      213: -5543917776920380693
+    second: clutter_plant_1
+  - first:
+      213: 3414436574112555377
+    second: clutter_plant_2
+  - first:
+      213: 1058276996916850039
+    second: clutter_plant_3
+  - first:
+      213: 6503913382942131705
+    second: clutter_plant_4
+  - first:
+      213: -8067961190486777708
+    second: clutter_plant_5
+  - first:
+      213: -6628804957993819764
+    second: clutter_plant_6
+  - first:
+      213: -1787637342130788569
+    second: clutter_plant_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clutter_plant_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 539
+        width: 180
+        height: 220
+      alignment: 9
+      pivot: {x: 0.49254277, y: 0.066808805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145b32f99284a2780800000000000000
+      internalID: -8707067585966656191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 552
+        width: 139
+        height: 193
+      alignment: 9
+      pivot: {x: 0.480687, y: 0.054890845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaffa2a72c0013b0800000000000000
+      internalID: -5543917776920380693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 707
+        width: 127
+        height: 319
+      alignment: 9
+      pivot: {x: 0.4894313, y: 0.028728426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171a41449f3826f20800000000000000
+      internalID: 3414436574112555377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 312
+        width: 134
+        height: 196
+      alignment: 9
+      pivot: {x: 0.45993224, y: 0.05485519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d223b5251cfae00800000000000000
+      internalID: 1058276996916850039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 276
+        width: 284
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.16194323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5cc2833ca824a50800000000000000
+      internalID: 6503913382942131705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 40
+        width: 149
+        height: 208
+      alignment: 9
+      pivot: {x: 0.47297475, y: 0.067630105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490e56b0b08d80090800000000000000
+      internalID: -8067961190486777708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 78
+        width: 201
+        height: 133
+      alignment: 9
+      pivot: {x: 0.47328833, y: 0.1265825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c812e69f201c104a0800000000000000
+      internalID: -6628804957993819764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_plant_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 72
+        width: 170
+        height: 176
+      alignment: 9
+      pivot: {x: 0.4684168, y: 0.09578948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72722130f490137e0800000000000000
+      internalID: -1787637342130788569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42e3d81c61366d84db105daeee45aaa8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clutter_plant_0: -8707067585966656191
+      clutter_plant_1: -5543917776920380693
+      clutter_plant_2: 3414436574112555377
+      clutter_plant_3: 1058276996916850039
+      clutter_plant_4: 6503913382942131705
+      clutter_plant_5: -8067961190486777708
+      clutter_plant_6: -6628804957993819764
+      clutter_plant_7: -1787637342130788569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

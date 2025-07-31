@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/App/Assets/itemShop.uss?fileID=7433441132597879392&amp;guid=2fbb541a70003f1499316e46107a9e8b&amp;type=3#itemShop" />
+    <engine:VisualElement name="ItemContainer" class="notOwned">
+        <engine:VisualElement name="ItemNameContainer" style="flex-grow: 0; background-color: rgb(255, 171, 0); top: 5%; left: 5%; width: 90%; height: 52px; align-items: center; flex-shrink: 1;">
+            <engine:Label text="ItemName" name="ItemName" style="font-size: 30px; flex-grow: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ImageContainer" style="flex-grow: 0; width: 80%; height: 65%; left: 10%; top: 10%;">
+            <engine:VisualElement name="Image" style="flex-grow: 1; bottom: 5%;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ItemCostContainer" style="flex-grow: 0; background-color: rgb(255, 171, 0); top: 9%; left: 5%; width: 90%; height: 52px; align-items: center; flex-shrink: 1; flex-direction: row; justify-content: center;">
+            <engine:VisualElement name="CurrencyLogo" style="flex-grow: 0; width: 13%; height: 80%; background-color: rgb(255, 0, 0);" />
+            <engine:Label text="itemCost" name="ItemCost" style="font-size: 30px; flex-grow: 0;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

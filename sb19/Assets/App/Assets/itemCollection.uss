@@ -1,0 +1,16 @@
+.inactive {
+    flex-grow: 0;
+    position: relative;
+    height: 444px;
+    width: 412px;
+    top: auto;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.active {
+    background-image: url("project://database/Assets/App/FirstSceneAsset/assets/placed.png?fileID=2800000&guid=4de416182c376384196b68eaba7df421&type=3#placed");
+    width: 412px;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 80%;
+}

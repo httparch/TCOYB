@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="DailyRewardBox" style="flex-grow: 0; background-color: rgb(203, 126, 0); height: 100%; width: 372px; margin-right: 20px; display: flex; margin-left: 20px; margin-top: 20px; margin-bottom: 20px; visibility: visible;">
+        <engine:Label text="dayNumber" name="DayNumber" style="font-size: 50px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+        <engine:VisualElement name="RewardImage" style="flex-grow: 0; width: 80%; height: 50%; margin-left: 0; align-items: stretch; align-self: center; justify-content: flex-start; align-content: auto; top: 20px; background-color: rgb(255, 255, 255); margin-bottom: 20px;" />
+        <engine:Label text="dayNumber" name="RewardName" style="font-size: 50px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+        <engine:Button text="Claim Reward" name="ClaimRewarButton" style="width: 372px; height: 132px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="TreeContainer" picking-mode="Ignore" style="flex-grow: 1;">
+        <engine:VisualElement name="Apple1" style="flex-grow: 1; position: absolute; height: 112px; width: 112px; top: 1015px; left: 324px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple2" style="flex-grow: 1; position: absolute; height: 196px; width: 204px; top: 1095px; left: 621px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple3" style="flex-grow: 1; position: absolute; height: 189px; width: 160px; top: 647px; left: 756px; background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple4" style="flex-grow: 1; position: absolute; height: 152px; width: 120px; top: 737px; left: 395px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="Apple5" style="flex-grow: 1; position: absolute; height: 160px; width: 160px; top: 1479px; left: 484px; background-color: rgb(255, 255, 255);" />
+    </engine:VisualElement>
+    <engine:Label text="Label" name="Countdown" style="font-size: 100px; position: absolute; top: 545px; left: 402px;" />
+</engine:UXML>

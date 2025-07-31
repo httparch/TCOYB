@@ -1,0 +1,5 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="Container" class="notOwned" style="width: 365px; background-color: rgba(255, 255, 255, 0); height: 400px; top: 2%; left: 2%; right: 2%; bottom: 2%; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);">
+        <engine:VisualElement name="BodyPartIcon" class="notOwned" style="width: 365px; background-color: rgba(255, 255, 255, 0); height: 400px; top: 50px; left: 50px; right: auto; bottom: auto; background-image: url(&quot;project://database/Assets/App/Assets/Menu%20UI/edit%20buddy.png?fileID=627197057547835085&amp;guid=a4995ac9b8b73d3479fac7766d3075a8&amp;type=3#edit buddy_1&quot;);" />
+    </engine:VisualElement>
+</engine:UXML>
